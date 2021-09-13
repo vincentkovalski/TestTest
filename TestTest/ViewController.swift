@@ -15,5 +15,9 @@ class ViewController: UIViewController {
     }
 
 
+    func setupHierarchy() {
+        let newView = UIView()
+        view.addSubview(newView)
+    }
 }
 
